@@ -8,7 +8,7 @@ This repo provides an expansion on the original problem, handling more complex c
 The program takes in three different csv files, you can replace these by your own custome input files:
 1. **orders_input.csv:** This includes all orders/jobs that need to be scheduled.
  
-  It should have the following columns:
+*Tabspace* It should have the following columns:
   
   | Column Name | Description                                                   | Example Value |
   
