@@ -1,7 +1,8 @@
 # job-shop-expansion
 
 The job shop problem is an optimization problem that involves scheduling multiple jobs on multiple machines. Each job has a sequence of tasks that must be executed in a specific order, each task has a specific duration and can be processed on a specific machine. The problem is to find the optimal schedule for all jobs that minimizes the length of the schedule (makespan).
-This problem can be solved using the open source Google OR-Tools library.
+This problem can be solved using the open source [Google OR-Tools library](https://developers.google.com/optimization/scheduling/job_shop).
+
 This repo provides an expansion on the original problem, handling more complex constraints.
 
 ### Input CSV Format
