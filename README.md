@@ -7,9 +7,15 @@ This repo provides an expansion on the original problem, handling more complex c
 ### Input CSV Format
 The program takes in three different csv files, you can replace these by your own custome input files:
 1. **orders_input.csv:** This include all orders/jobs that need to be scheduled.
+ 
   It should have the following columns:
+  
   | Column Name | Description                                                   | Example Value |
+  
   |-------------|---------------------------------------------------------------|-------------- |
+  
   | job_number  | a unique number assigned to each job                          | 1             |
+  
   | job_code    | a code that maps to which tasks would be included in this job | 11            |
+  
   | start_date  | the date on which this job should start                       | 19/01/2025    |
